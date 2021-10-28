@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1215FB54272A7F4E00908EBC /* Friend3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB53272A7F4E00908EBC /* Friend3.swift */; };
+		1215FB59272A863700908EBC /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB58272A863700908EBC /* Friend1.swift */; };
+		1215FB5B272A864E00908EBC /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5A272A864E00908EBC /* Friend2.swift */; };
+		1215FB5D272A87F700908EBC /* Friend4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5C272A87F700908EBC /* Friend4.swift */; };
 		12540864271CDE7100CCA0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540863271CDE7100CCA0FC /* AppDelegate.swift */; };
 		12540866271CDE7100CCA0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540865271CDE7100CCA0FC /* SceneDelegate.swift */; };
 		12540868271CDE7100CCA0FC /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540867271CDE7100CCA0FC /* SendCashViewController.swift */; };
@@ -21,6 +25,7 @@
 		1254089E271DD54600CCA0FC /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1254089D271DD54600CCA0FC /* NotificationCenterViewController.swift */; };
 		125408A1271DDB8B00CCA0FC /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125408A0271DDB8B00CCA0FC /* ChooseFruitViewController.swift */; };
 		125408A4271DDC8100CCA0FC /* FruitsStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */; };
+		125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */; };
 		12D3BAE8272246DE00594A29 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3BAE7272246DE00594A29 /* NetworkingViewController.swift */; };
 		12D3BAEC2722D53400594A29 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 12D3BAEB2722D53400594A29 /* Alamofire */; };
 		12D3BAF127241ABB00594A29 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3BAF027241ABB00594A29 /* AuthViewController.swift */; };
@@ -50,6 +55,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1215FB53272A7F4E00908EBC /* Friend3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend3.swift; sourceTree = "<group>"; };
+		1215FB58272A863700908EBC /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
+		1215FB5A272A864E00908EBC /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
+		1215FB5C272A87F700908EBC /* Friend4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend4.swift; sourceTree = "<group>"; };
 		12540860271CDE7100CCA0FC /* Lesson1.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson1.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12540863271CDE7100CCA0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12540865271CDE7100CCA0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +77,7 @@
 		1254089D271DD54600CCA0FC /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		125408A0271DDB8B00CCA0FC /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
 		125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsStoreViewController.swift; sourceTree = "<group>"; };
+		125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
 		12D3BAE7272246DE00594A29 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		12D3BAF027241ABB00594A29 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12D3BAF22724221100594A29 /* FriendsViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewControllerTableViewController.swift; sourceTree = "<group>"; };
@@ -104,9 +114,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1215FB55272A7F5400908EBC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1215FB58272A863700908EBC /* Friend1.swift */,
+				1215FB5A272A864E00908EBC /* Friend2.swift */,
+				1215FB53272A7F4E00908EBC /* Friend3.swift */,
+				1215FB5C272A87F700908EBC /* Friend4.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1215FB56272A7FAB00908EBC /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				12D3BAF027241ABB00594A29 /* AuthViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		1215FB57272A7FB200908EBC /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				12D3BAF22724221100594A29 /* FriendsViewControllerTableViewController.swift */,
+				1215FB55272A7F5400908EBC /* Models */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
 		12540857271CDE7000CCA0FC = {
 			isa = PBXGroup;
 			children = (
+				12540893271CDF1800CCA0FC /* App */,
 				12D3BAEF272419DC00594A29 /* vk-api */,
 				12D3BAE92722481C00594A29 /* Lesson2 */,
 				12540862271CDE7100CCA0FC /* Lesson1.3 */,
@@ -129,7 +168,6 @@
 		12540862271CDE7100CCA0FC /* Lesson1.3 */ = {
 			isa = PBXGroup;
 			children = (
-				12540893271CDF1800CCA0FC /* App */,
 				12540895271CE20700CCA0FC /* Lesson 1 */,
 				12540894271CDF3A00CCA0FC /* Resources */,
 			);
@@ -210,6 +248,25 @@
 			path = "Observer - NotificationCenter";
 			sourceTree = "<group>";
 		};
+		125CD2CC27282A9D00A487DE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		125CD2CF27282D0300A487DE /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12D3BB36272681AC00594A29 /* FriendsAPI.swift */,
+				12D3BB42272695C500594A29 /* PhotosAPI.swift */,
+				12D3BB40272695B300594A29 /* GroupsOfSearchingAPI.swift */,
+				12D3BB3C2726957A00594A29 /* GroupsOfUserAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		12D3BAE92722481C00594A29 /* Lesson2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,6 +278,8 @@
 		12D3BAEF272419DC00594A29 /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
+				125CD2CC27282A9D00A487DE /* Helpers */,
+				125CD2CF27282D0300A487DE /* API */,
 				12D3BB352726815400594A29 /* Services */,
 				12D3BB342726813600594A29 /* Modules */,
 			);
@@ -230,8 +289,8 @@
 		12D3BB342726813600594A29 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				12D3BAF22724221100594A29 /* FriendsViewControllerTableViewController.swift */,
-				12D3BAF027241ABB00594A29 /* AuthViewController.swift */,
+				1215FB57272A7FB200908EBC /* Friends */,
+				1215FB56272A7FAB00908EBC /* Auth */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -240,10 +299,6 @@
 			isa = PBXGroup;
 			children = (
 				12D3BB3227267C9400594A29 /* Session.swift */,
-				12D3BB36272681AC00594A29 /* FriendsAPI.swift */,
-				12D3BB3C2726957A00594A29 /* GroupsOfUserAPI.swift */,
-				12D3BB40272695B300594A29 /* GroupsOfSearchingAPI.swift */,
-				12D3BB42272695C500594A29 /* PhotosAPI.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -346,6 +401,7 @@
 			mainGroup = 12540857271CDE7000CCA0FC;
 			packageReferences = (
 				12D3BAEA2722D53400594A29 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				1215FB522729805B00908EBC /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 12540861271CDE7100CCA0FC /* Products */;
 			projectDirPath = "";
@@ -509,6 +565,7 @@
 				12540899271CE30300CCA0FC /* DetailViewController.swift in Sources */,
 				12D3BAF32724221100594A29 /* FriendsViewControllerTableViewController.swift in Sources */,
 				12D3BB37272681AC00594A29 /* FriendsAPI.swift in Sources */,
+				125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -517,6 +574,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1254087B271CDE7300CCA0FC /* Lesson1_3Tests.swift in Sources */,
+				1215FB59272A863700908EBC /* Friend1.swift in Sources */,
+				1215FB5B272A864E00908EBC /* Friend2.swift in Sources */,
+				1215FB5D272A87F700908EBC /* Friend4.swift in Sources */,
+				1215FB54272A7F4E00908EBC /* Friend3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -868,6 +929,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1215FB522729805B00908EBC /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 		12D3BAEA2722D53400594A29 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
