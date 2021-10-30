@@ -25,3 +25,6 @@ struct Friend4: Codable {
         case photo100 = "photo_100"
     }
 }
+
+
+
