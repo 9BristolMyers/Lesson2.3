@@ -11,7 +11,7 @@ class FriendsViewController: UITableViewController {
     
     let friendsService = FriendsAPI()
     
-    var friends:[Friend3] = []
+    var friends:[FriendModel] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class FriendsViewController: UITableViewController {
             self?.friends = friends
             self?.tableView.reloadData()
         }*/
-        friendsService.getFriends3 { [weak self] friends in
+        friendsService.getFriends4 { [weak self] friends in
             self?.friends = friends
             self?.tableView.reloadedData()
         }

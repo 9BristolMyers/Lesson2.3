@@ -20,6 +20,10 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
        override func viewDidLoad() {
            super.viewDidLoad()
            
+           if !Session.shared.token.isEmpty, Session.shared.userId > 0 {
+               performSegue(withIdentifier: "showTabBarSegue", sender: nil)
+           }
+           
            authorizeToVKAPI()
        }
                 
@@ -68,11 +72,10 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
             print(token)
             
             Session.shared.token = token
-            Session.shared.userId = userId
+            Session.shared.userId = Int(userId) ?? 0
             
             performSegue(withIdentifier: "showTabBarSegue", sender: nil)
             
             decisionHandler(.cansel)
         }
 }
-        

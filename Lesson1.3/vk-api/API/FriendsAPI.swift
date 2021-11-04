@@ -17,7 +17,7 @@ final class FriendsAPI {
         let userId = Session.shared.userId
         let version = "5.81"
         
-        func getFriends3(completion: @escaping([Friend3])->()) {
+        func getFriends3(completion: @escaping([FriendModel])->()) {
             
             let method = "/friends.get"
             
@@ -38,9 +38,9 @@ final class FriendsAPI {
                 debugPrint(response.data?.prettyJSON as Any)
                 
                 do {
+                    let itemsData = try JSON(data)["response"]["items"].rawData()
+                    let friends: try JSONDecoder().decode([FriendModel]).self, from: itemsData)
                     
-                    let friendsJSON = try? JSONDecoder().decode(FriendsJSON.self, from: data)
-                    let friends: [Friend3] = friendsJSON?.response.items ?? []
                     completion(friends)
                     
                 } catch {
@@ -201,7 +201,7 @@ struct Friend1 {
     }
     
     
-    func getFriends4(completion: @escaping([Friend4])->()) {
+    func getFriends4(completion: @escaping([FriendDataBase])->()) {
         
         let method = "/friends.get"
         
@@ -224,7 +224,7 @@ struct Friend1 {
             do {
                 
                 let friendsJSON = try? JSONDecoder().decode(FriendsJSON.self, from: data)
-                let friends: [Friend4] = friendsJSON?.response.items ?? []
+                let friends: [FriendDataBase] = friendsJSON?.response.items ?? []
                 completion(friends)
                 
             } catch {
