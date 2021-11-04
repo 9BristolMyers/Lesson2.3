@@ -9,7 +9,7 @@ import Foundation
 import SwiftyJSON
 import RealmSwift
 
-class FriendDataBase: Object, Codable {
+class FriendModel: Object, Codable {
     @objc dynamic var id: Int
     @objc dynamic var lastName: String
     @objc dynamic var trackCode, firstName: String

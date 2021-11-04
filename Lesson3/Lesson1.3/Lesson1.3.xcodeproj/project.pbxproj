@@ -14,6 +14,7 @@
 		1215FB59272A863700908EBC /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB58272A863700908EBC /* Friend1.swift */; };
 		1215FB5B272A864E00908EBC /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5A272A864E00908EBC /* Friend2.swift */; };
 		1215FB5D272A87F700908EBC /* FriendDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5C272A87F700908EBC /* FriendDataBase.swift */; };
+		12506D972733074C000C9DEB /* PersonDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12506D962733074C000C9DEB /* PersonDataBase.swift */; };
 		12540864271CDE7100CCA0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540863271CDE7100CCA0FC /* AppDelegate.swift */; };
 		12540866271CDE7100CCA0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540865271CDE7100CCA0FC /* SceneDelegate.swift */; };
 		12540868271CDE7100CCA0FC /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540867271CDE7100CCA0FC /* SendCashViewController.swift */; };
@@ -30,6 +31,9 @@
 		125408A4271DDC8100CCA0FC /* FruitsStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */; };
 		125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */; };
 		128E05A8272DBEEA007D93A1 /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128E05A7272DBEEA007D93A1 /* StorageViewController.swift */; };
+		12ACAB8D2731647900C0EB09 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACAB8C2731647900C0EB09 /* GroupsViewController.swift */; };
+		12ACAB91273164C700C0EB09 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACAB90273164C700C0EB09 /* PhotosViewController.swift */; };
+		12ACAB942731656E00C0EB09 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACAB932731656E00C0EB09 /* RealmViewController.swift */; };
 		12D3BAE8272246DE00594A29 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3BAE7272246DE00594A29 /* NetworkingViewController.swift */; };
 		12D3BAEC2722D53400594A29 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 12D3BAEB2722D53400594A29 /* Alamofire */; };
 		12D3BAF127241ABB00594A29 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D3BAF027241ABB00594A29 /* AuthViewController.swift */; };
@@ -66,6 +70,7 @@
 		1215FB58272A863700908EBC /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
 		1215FB5A272A864E00908EBC /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
 		1215FB5C272A87F700908EBC /* FriendDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataBase.swift; sourceTree = "<group>"; };
+		12506D962733074C000C9DEB /* PersonDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDataBase.swift; sourceTree = "<group>"; };
 		12540860271CDE7100CCA0FC /* Lesson1.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson1.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12540863271CDE7100CCA0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12540865271CDE7100CCA0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 		125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsStoreViewController.swift; sourceTree = "<group>"; };
 		125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
 		128E05A7272DBEEA007D93A1 /* StorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
+		12ACAB8C2731647900C0EB09 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		12ACAB90273164C700C0EB09 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		12ACAB932731656E00C0EB09 /* RealmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		12D3BAE7272246DE00594A29 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		12D3BAF027241ABB00594A29 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		12D3BAF22724221100594A29 /* FriendsViewControllerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewControllerTableViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +165,7 @@
 				12D3BAEF272419DC00594A29 /* vk-api */,
 				12D3BAE92722481C00594A29 /* Lesson2 */,
 				128E05A6272DBEA3007D93A1 /* Lesson4 */,
+				12ACAB922731650C00C0EB09 /* Lesson6 */,
 				128E05A5272DBAEF007D93A1 /* Lesson1 */,
 				12540894271CDF3A00CCA0FC /* Resources */,
 				12540879271CDE7300CCA0FC /* Lesson1.3Tests */,
@@ -279,6 +288,31 @@
 			path = Lesson4;
 			sourceTree = "<group>";
 		};
+		12ACAB8A2731642E00C0EB09 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				12ACAB90273164C700C0EB09 /* PhotosViewController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		12ACAB8B2731643B00C0EB09 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				12ACAB8C2731647900C0EB09 /* GroupsViewController.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		12ACAB922731650C00C0EB09 /* Lesson6 */ = {
+			isa = PBXGroup;
+			children = (
+				12ACAB932731656E00C0EB09 /* RealmViewController.swift */,
+				12506D962733074C000C9DEB /* PersonDataBase.swift */,
+			);
+			path = Lesson6;
+			sourceTree = "<group>";
+		};
 		12D3BAE92722481C00594A29 /* Lesson2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,6 +335,8 @@
 		12D3BB342726813600594A29 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				12ACAB8A2731642E00C0EB09 /* Photos */,
+				12ACAB8B2731643B00C0EB09 /* Groups */,
 				1215FB57272A7FB200908EBC /* Friends */,
 				1215FB56272A7FAB00908EBC /* Auth */,
 			);
@@ -575,14 +611,18 @@
 				12112362272EEA9200FF8595 /* Human+CoreDataClass.swift in Sources */,
 				128E05A8272DBEEA007D93A1 /* StorageViewController.swift in Sources */,
 				12540868271CDE7100CCA0FC /* SendCashViewController.swift in Sources */,
+				12ACAB942731656E00C0EB09 /* RealmViewController.swift in Sources */,
+				12ACAB91273164C700C0EB09 /* PhotosViewController.swift in Sources */,
 				12540864271CDE7100CCA0FC /* AppDelegate.swift in Sources */,
 				1211235A272EE8D500FF8595 /* client-server.xcdatamodeld in Sources */,
 				12D3BB3D2726957A00594A29 /* GroupsOfUserAPI.swift in Sources */,
 				12D3BB3327267C9400594A29 /* Session.swift in Sources */,
+				12ACAB8D2731647900C0EB09 /* GroupsViewController.swift in Sources */,
 				12540866271CDE7100CCA0FC /* SceneDelegate.swift in Sources */,
 				12540899271CE30300CCA0FC /* DetailViewController.swift in Sources */,
 				12D3BAF32724221100594A29 /* FriendsViewControllerTableViewController.swift in Sources */,
 				12D3BB37272681AC00594A29 /* FriendsAPI.swift in Sources */,
+				12506D972733074C000C9DEB /* PersonDataBase.swift in Sources */,
 				125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
