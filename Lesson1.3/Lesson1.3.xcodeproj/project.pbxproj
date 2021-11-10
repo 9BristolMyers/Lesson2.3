@@ -13,8 +13,7 @@
 		1215FB54272A7F4E00908EBC /* Friend3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB53272A7F4E00908EBC /* Friend3.swift */; };
 		1215FB59272A863700908EBC /* Friend1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB58272A863700908EBC /* Friend1.swift */; };
 		1215FB5B272A864E00908EBC /* Friend2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5A272A864E00908EBC /* Friend2.swift */; };
-		1215FB5D272A87F700908EBC /* FriendDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5C272A87F700908EBC /* FriendDataBase.swift */; };
-		12506D972733074C000C9DEB /* PersonDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12506D962733074C000C9DEB /* PersonDataBase.swift */; };
+		12506D972733074C000C9DEB /* FriendsDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12506D962733074C000C9DEB /* FriendsDataBase.swift */; };
 		12540864271CDE7100CCA0FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540863271CDE7100CCA0FC /* AppDelegate.swift */; };
 		12540866271CDE7100CCA0FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540865271CDE7100CCA0FC /* SceneDelegate.swift */; };
 		12540868271CDE7100CCA0FC /* SendCashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12540867271CDE7100CCA0FC /* SendCashViewController.swift */; };
@@ -29,7 +28,10 @@
 		1254089E271DD54600CCA0FC /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1254089D271DD54600CCA0FC /* NotificationCenterViewController.swift */; };
 		125408A1271DDB8B00CCA0FC /* ChooseFruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125408A0271DDB8B00CCA0FC /* ChooseFruitViewController.swift */; };
 		125408A4271DDC8100CCA0FC /* FruitsStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */; };
+		1259B79F273C5B990056A629 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1259B79E273C5B990056A629 /* GoogleService-Info.plist */; };
 		125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */; };
+		1269024C2735C2B400405A98 /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269024B2735C2B400405A98 /* UIImageView+Load.swift */; };
+		1269024D2735C6B000405A98 /* FriendModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1215FB5C272A87F700908EBC /* FriendModel.swift */; };
 		128E05A8272DBEEA007D93A1 /* StorageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128E05A7272DBEEA007D93A1 /* StorageViewController.swift */; };
 		12ACAB8D2731647900C0EB09 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACAB8C2731647900C0EB09 /* GroupsViewController.swift */; };
 		12ACAB91273164C700C0EB09 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ACAB90273164C700C0EB09 /* PhotosViewController.swift */; };
@@ -69,8 +71,8 @@
 		1215FB53272A7F4E00908EBC /* Friend3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend3.swift; sourceTree = "<group>"; };
 		1215FB58272A863700908EBC /* Friend1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend1.swift; sourceTree = "<group>"; };
 		1215FB5A272A864E00908EBC /* Friend2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend2.swift; sourceTree = "<group>"; };
-		1215FB5C272A87F700908EBC /* FriendDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendDataBase.swift; sourceTree = "<group>"; };
-		12506D962733074C000C9DEB /* PersonDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDataBase.swift; sourceTree = "<group>"; };
+		1215FB5C272A87F700908EBC /* FriendModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendModel.swift; sourceTree = "<group>"; };
+		12506D962733074C000C9DEB /* FriendsDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsDataBase.swift; sourceTree = "<group>"; };
 		12540860271CDE7100CCA0FC /* Lesson1.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson1.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12540863271CDE7100CCA0FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12540865271CDE7100CCA0FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -89,7 +91,9 @@
 		1254089D271DD54600CCA0FC /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterViewController.swift; sourceTree = "<group>"; };
 		125408A0271DDB8B00CCA0FC /* ChooseFruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFruitViewController.swift; sourceTree = "<group>"; };
 		125408A3271DDC8100CCA0FC /* FruitsStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsStoreViewController.swift; sourceTree = "<group>"; };
+		1259B79E273C5B990056A629 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+PrettyJSON.swift"; sourceTree = "<group>"; };
+		1269024B2735C2B400405A98 /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		128E05A7272DBEEA007D93A1 /* StorageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageViewController.swift; sourceTree = "<group>"; };
 		12ACAB8C2731647900C0EB09 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		12ACAB90273164C700C0EB09 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -136,7 +140,6 @@
 				1215FB58272A863700908EBC /* Friend1.swift */,
 				1215FB5A272A864E00908EBC /* Friend2.swift */,
 				1215FB53272A7F4E00908EBC /* Friend3.swift */,
-				1215FB5C272A87F700908EBC /* FriendDataBase.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 		12540894271CDF3A00CCA0FC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1259B79E273C5B990056A629 /* GoogleService-Info.plist */,
 				12540871271CDE7200CCA0FC /* Info.plist */,
 				1254086C271CDE7200CCA0FC /* Assets.xcassets */,
 				1254086E271CDE7200CCA0FC /* LaunchScreen.storyboard */,
@@ -249,12 +253,13 @@
 			path = "Observer - NotificationCenter";
 			sourceTree = "<group>";
 		};
-		125CD2CC27282A9D00A487DE /* Helpers */ = {
+		125CD2CC27282A9D00A487DE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				125CD2CD27282AE900A487DE /* Data+PrettyJSON.swift */,
+				1269024B2735C2B400405A98 /* UIImageView+Load.swift */,
 			);
-			path = Helpers;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		125CD2CF27282D0300A487DE /* API */ = {
@@ -266,6 +271,15 @@
 				12D3BB3C2726957A00594A29 /* GroupsOfUserAPI.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		1269024A2735C16900405A98 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				12506D962733074C000C9DEB /* FriendsDataBase.swift */,
+				1215FB5C272A87F700908EBC /* FriendModel.swift */,
+			);
+			path = DataBase;
 			sourceTree = "<group>";
 		};
 		128E05A5272DBAEF007D93A1 /* Lesson1 */ = {
@@ -308,7 +322,6 @@
 			isa = PBXGroup;
 			children = (
 				12ACAB932731656E00C0EB09 /* RealmViewController.swift */,
-				12506D962733074C000C9DEB /* PersonDataBase.swift */,
 			);
 			path = Lesson6;
 			sourceTree = "<group>";
@@ -324,8 +337,7 @@
 		12D3BAEF272419DC00594A29 /* vk-api */ = {
 			isa = PBXGroup;
 			children = (
-				125CD2CC27282A9D00A487DE /* Helpers */,
-				125CD2CF27282D0300A487DE /* API */,
+				125CD2CC27282A9D00A487DE /* Extensions */,
 				12D3BB352726815400594A29 /* Services */,
 				12D3BB342726813600594A29 /* Modules */,
 			);
@@ -347,6 +359,8 @@
 			isa = PBXGroup;
 			children = (
 				12D3BB3227267C9400594A29 /* Session.swift */,
+				125CD2CF27282D0300A487DE /* API */,
+				1269024A2735C16900405A98 /* DataBase */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -470,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				12540870271CDE7200CCA0FC /* LaunchScreen.storyboard in Resources */,
+				1259B79F273C5B990056A629 /* GoogleService-Info.plist in Resources */,
 				1254086D271CDE7200CCA0FC /* Assets.xcassets in Resources */,
 				1254086B271CDE7100CCA0FC /* Main.storyboard in Resources */,
 			);
@@ -601,6 +616,7 @@
 			files = (
 				125408A1271DDB8B00CCA0FC /* ChooseFruitViewController.swift in Sources */,
 				12112361272EEA9200FF8595 /* Human+CoreDataProperties.swift in Sources */,
+				1269024C2735C2B400405A98 /* UIImageView+Load.swift in Sources */,
 				12D3BB43272695C500594A29 /* PhotosAPI.swift in Sources */,
 				1254089E271DD54600CCA0FC /* NotificationCenterViewController.swift in Sources */,
 				12D3BAF127241ABB00594A29 /* AuthViewController.swift in Sources */,
@@ -620,9 +636,10 @@
 				12ACAB8D2731647900C0EB09 /* GroupsViewController.swift in Sources */,
 				12540866271CDE7100CCA0FC /* SceneDelegate.swift in Sources */,
 				12540899271CE30300CCA0FC /* DetailViewController.swift in Sources */,
+				1269024D2735C6B000405A98 /* FriendModel.swift in Sources */,
 				12D3BAF32724221100594A29 /* FriendsViewControllerTableViewController.swift in Sources */,
 				12D3BB37272681AC00594A29 /* FriendsAPI.swift in Sources */,
-				12506D972733074C000C9DEB /* PersonDataBase.swift in Sources */,
+				12506D972733074C000C9DEB /* FriendsDataBase.swift in Sources */,
 				125CD2CE27282AE900A487DE /* Data+PrettyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,7 +651,6 @@
 				1254087B271CDE7300CCA0FC /* Lesson1_3Tests.swift in Sources */,
 				1215FB59272A863700908EBC /* Friend1.swift in Sources */,
 				1215FB5B272A864E00908EBC /* Friend2.swift in Sources */,
-				1215FB5D272A87F700908EBC /* FriendDataBase.swift in Sources */,
 				1215FB54272A7F4E00908EBC /* Friend3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
