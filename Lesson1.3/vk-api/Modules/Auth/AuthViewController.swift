@@ -79,3 +79,7 @@ class AuthViewController: UIViewController, WKNavigationDelegate {
             decisionHandler(.cansel)
         }
 }
+
+
+
+
